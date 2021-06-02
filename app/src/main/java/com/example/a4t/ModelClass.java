@@ -1,6 +1,7 @@
 package com.example.a4t;
 
 
+
 public class ModelClass {
     String strDrink;
     String strDrinkThumb;
