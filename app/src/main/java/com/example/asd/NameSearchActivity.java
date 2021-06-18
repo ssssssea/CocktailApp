@@ -38,8 +38,7 @@ public class NameSearchActivity extends AppCompatActivity {
         setContentView(R.layout.search_result_recycle);
 
         cocktailList = new ArrayList<>();
-//        RecipeList = new ArrayList<>();
-//
+
         recyclerView = findViewById(R.id.recyclerView);
 
         Intent intent = getIntent();

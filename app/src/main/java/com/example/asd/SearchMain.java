@@ -21,8 +21,8 @@ public class SearchMain extends Activity {
 
         textInputEditText2 = findViewById(R.id.cocktailName);
 
-        SearchBtn1 = findViewById(R.id.SearchBtn1);
-        SearchBtn2 = findViewById(R.id.SearchBtn2);
+        SearchBtn1 = (Button)findViewById(R.id.SearchBtn1);
+        SearchBtn2 = (Button)findViewById(R.id.SearchBtn2);
 
 
         SearchBtn1.setOnClickListener(new View.OnClickListener() {

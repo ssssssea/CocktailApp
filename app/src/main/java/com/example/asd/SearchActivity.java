@@ -27,7 +27,6 @@ public class SearchActivity extends AppCompatActivity {
 
     List<CocktailModelClass> cocktailList;
     RecyclerView recyclerView;
-    String ingredient;
 
 
     @Override
